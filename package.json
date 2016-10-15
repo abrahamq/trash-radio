@@ -13,10 +13,7 @@
     "ejs": "~0.8.5",
     "express": "^4.13.3",
     "express-session": "*",
-    "handlebars": "^4.0.2",
-    "jQuery": "^1.7.4",
     "jquery": "^2.1.4",
-    "mongoose": "^4.1.11",
     "morgan": "~1.2.3",
     "serve-favicon": "^2.3.0"
   },
@@ -33,9 +30,5 @@
     "test": "test"
   },
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git@github.mit.edu:6170-fa15/abrahamq_proj3.git"
-  },
   "author": "abrahamq"
 }

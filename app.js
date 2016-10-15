@@ -19,8 +19,8 @@ router.post('/play', function(req, res){
   var link = req.body.link; 
   //shell.exec('vlc ' + link, {async:true}); 
   console.log(link); 
-  //shell.exec('', {async:true}); 
-  shell.exec('/Applications/VLC.app/Contents/MacOS/VLC ' + link, {async:true}); 
+  shell.exec('killall vlc', {async:true}); 
+  shell.exec('vlc ' + link, {async:true}); 
   res.status(200).end(); 
 }); 
 
